@@ -12,7 +12,7 @@
 <body>
 
     <div class="container">
-        <nav class="navbar fixed-top navbar-dark bg-info justify-content-around text-center">
+        <nav id="nav-bar" class="navbar fixed-top navbar-dark bg-info justify-content-around text-center">
             <a href="/" class="navbar-brand text-dark">WebDevSeth</a>
             <div>|</div>
             <a href="/" class="nav-link">Home</a>
@@ -25,7 +25,7 @@
         </nav>
 
 
-        <div class="jumbotron text-center">
+        <div id="intro" class="jumbotron text-center my-3">
             <h1 class="display-4">Hi, I'm Seth.</h1>
             <p class="lead">- an aspiring Software Engineer</p>
             <p class="intro">I'm in the process of completing a Software Engineering Bootcamp through Springboard. When
@@ -36,8 +36,9 @@
         </div>
 
 
-        <div id="projects" class="projects main-color">
-            <h1 class="px-5 pt-5 pb-4">Projects</h1>
+        <div id="projects" class="main-color my-3">
+            <h2 class="px-5 pt-5 pb-2">Projects</h2>
+            <hr/>
             <ul class="pb-5">
                 <li><a href="#">Connect-Four</a></li>
                 <li><a href="#">Boggle</a></li>
@@ -50,15 +51,35 @@
             </ul>
         </div>
 
-        <footer class="main-color">
+        <div id="blog" class="main-color my-3">
+            <div class="blog-post p-3">
+                <h2 class="px-5 pt-5 pb-2">Blog</h2>
+                <hr/>
+                <div class="row d-flex align-items-center pb-2">
+                    <div class="col-6">
+                        <h3 class="text-center">Getting Started</h3>
+                    </div>
+                    <div class="col-6"> 
+                        <img class="col" src="/images/clement-h-95YRwf6CNw8-unsplash.jpg" alt="Photo by Clément H on Unsplash">   
+                        <p class="source">
+                            Photo by Clément H on Unsplash
+                        </p>                 
+                    </div>
+                </div>
+                <div class="row">
+                    <p class="container blog-content px-5 pb-2">                        
+                        Learning to code has never been easier.  If you're reading this, you already have the tools you need: an internet connection and a device to interact with it.  It's obviously easier to learn with a computer/keyboard, but with apps like <a href="Sololearn.com">Sololearn</a> it's possible to use a phone.  I started by using a combination of <a>Udemy</a> and <a>Sololearn</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer" class="main-color">
             <div>
                 <p class='text-center'>The logo was made for free at <a href="logomakr.com">logomakr.com</a></p>
             </div>
         </footer>
     </div>
-
-    
-
 
     <script src="/source/jquery-3.5.0.min.js"></script>
     <script src="/source/bootstrap.bundle.min.js"></script>
