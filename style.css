@@ -23,13 +23,11 @@
 }
 
 .main-color {
-<<<<<<< HEAD
     background-color: rgb(233, 236, 239)
 }
 
 .logo-brand {
     width: 3rem;
-=======
     background-color: rgb(233, 236, 239);
     border-radius: 2rem;
 }
@@ -43,5 +41,4 @@ img {
 }
 .source {
     font-size: .5em;
->>>>>>> 8ba21d08e075b95506a202cfd8d29eac620195b8
 }
