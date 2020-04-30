@@ -6,6 +6,7 @@
     height: 100vh - 5rem;
     margin-top: 5rem;
     padding-top: 10rem;
+    border-radius: 2rem;
 }
 
 .display-4 {
@@ -22,9 +23,25 @@
 }
 
 .main-color {
+<<<<<<< HEAD
     background-color: rgb(233, 236, 239)
 }
 
 .logo-brand {
     width: 3rem;
+=======
+    background-color: rgb(233, 236, 239);
+    border-radius: 2rem;
+}
+
+.blog-content {
+    text-indent: 2rem;
+}
+
+img {
+    border-radius: 10%;
+}
+.source {
+    font-size: .5em;
+>>>>>>> 8ba21d08e075b95506a202cfd8d29eac620195b8
 }
