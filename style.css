@@ -1,5 +1,5 @@
 a {
-    color: #343a40!important;
+    color: #343a40;
 }
 
 .jumbotron {
@@ -42,11 +42,11 @@ a {
     text-indent: 2rem;
 }
 
-img {
+.square-pic {
     border-radius: 10%;
 }
 .source {
-    font-size: .5em;
+    font-size: .6em;
     text-indent: 2rem;
 }
 
@@ -61,4 +61,8 @@ html, body {
 .section-title {
     font-size: 3rem;
     border-radius: 2rem 2rem 0 0;
+}
+
+img {
+    border-radius: 1rem;
 }
