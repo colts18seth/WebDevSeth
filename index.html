@@ -1,120 +1,195 @@
-<!DOCTYPE html
-    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-    <meta name="googlebot" content="noindex,nofollow">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="stylesheet" href="/source/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>WebDevSeth</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<meta name="googlebot" content="noindex,nofollow" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+	<link rel="manifest" href="/site.webmanifest" />
+	<link rel="stylesheet" href="/source/bootstrap.min.css" />
+	<link rel="stylesheet" href="style.css" />
+	<title>WebDevSeth</title>
 </head>
 
 <body>
+	<div class="container">
+		<nav
+			class="navbar border-bottom border-dark fixed-top navbar-dark bg-info justify-content-around text-center"
+		>
+			<a href="/" class="navbar-brand text-dark"
+				><img
+					class="logo-brand"
+					src="/favicon-32x32.png"
+					alt="WebDevSeth"
+				/>
+				WebDevSeth</a
+			>
+			<div>|</div>
+			<a href="/" class="nav-link">Top</a>
+			<div>|</div>
+			<a href="#projects" class="nav-link">Projects</a>
+			<div>|</div>
+			<a href="#connect" class="nav-link">Connect</a>
+		</nav>
 
-    <div class="container">
-        <nav class="navbar border-bottom border-dark fixed-top navbar-dark bg-info justify-content-around text-center">
-            <a href="/" class="navbar-brand text-dark"><img class="logo-brand" src="/favicon-32x32.png"
-                    alt="WebDevSeth"> WebDevSeth</a>
-            <div>|</div>
-            <a href="/" class="nav-link">Top</a>
-            <div>|</div>
-            <a href="#blog" class="nav-link">Blog</a>
-            <div>|</div>
-            <a href="#projects" class="nav-link">Projects</a>
-            <div>|</div>
-            <a href="#connect" class="nav-link">Connect</a>
-        </nav>
+		<div id="intro" class="jumbotron text-center mb-3">
+			<h1 class="display-4">Hi, I'm Seth.</h1>
+			<p class="lead">- an aspiring Software Engineer</p>
+			<p class="intro">
+				I'm in the process of completing a Software Engineering Bootcamp
+				through Springboard. When I started this bootcamp, I knew very
+				little about web development. So, I thought it'd be cool to keep
+				a record of what I'm learning. This site is just that!
+			</p>
+		</div>
 
+		<div id="projects" class="main-color my-3">
+			<h2 class="bg-info px-5 py-4 section-title">Projects</h2>
 
-        <div id="intro" class="jumbotron text-center mb-3">
-            <h1 class="display-4">Hi, I'm Seth.</h1>
-            <p class="lead">- an aspiring Software Engineer</p>
-            <p class="intro">I'm in the process of completing a Software Engineering Bootcamp through Springboard. When
-                I started this bootcamp, I knew very little about web development. So, I thought it'd be cool to keep a
-                record of what I'm learning and how I'm learning it. This site is just that! I will continue to update
-                this site as better technologies are learned, as well as keep the blog up to date with my coding
-                journey.</p>
-        </div>
+			<div class="row">
+				<div class="col-6">
+					<a
+						href="https://key-blogger.netlify.app/"
+						target="_blank"
+						class="pl-2"
+					>
+						<img class="w-100" src="images\Key_Blogger.png" />
+					</a>
+					<p class="text-center"><b>Key_Blogger</b></p>
+				</div>
 
+				<div class="col-6">
+					<a
+						href="https://you-guessed-it.herokuapp.com/"
+						target="_blank"
+					>
+						<img
+							class="pr-2 w-100"
+							src="images\You-Guessed-It.png"
+						/>
+					</a>
+					<p class="text-center"><b>You Guessed It</b></p>
+				</div>
+			</div>
 
-        <div id="blog" class="main-color my-3">
-            <h2 class="bg-info px-5 py-4 section-title">Blog</h2>
-            <div class="blog-post px-3 pb-3">
-                <div class="row d-flex align-items-center pb-2">
-                    <div class="col-6">
-                        <h3 class="text-center">Getting Started</h3>
-                    </div>
-                    <div class="col-6">
-                        <img class="col square-pic" src="/images/clement-h-95YRwf6CNw8-unsplash.jpg"
-                            alt="Photo by Clément H on Unsplash">
-                        <p class="source">
-                            Photo by Clément H on Unsplash
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <p class="container blog-content px-5 pb-2">
-                        Learning to code has never been easier. If you're reading this, you already have the tools you
-                        need: an internet connection and a device to interact with it. It's obviously easier to learn
-                        with a computer/keyboard, but with apps like <a href="http://sololearn.com">Sololearn</a> it's
-                        possible
-                        to use a phone. I started by using a combination of <a href="http://udemy.com">Udemy</a> and <a
-                            href="http://sololearn.com">Sololearn</a>.
-                    </p>
-                </div>
-            </div>
-        </div>
+			<div class="row">
+				<div class="col-6">
+					<a
+						href="https://colts18seth.github.io/Memory-Game/"
+						target="_blank"
+						class="pl-2"
+					>
+						<img class="w-100" src="/images/Memory-Game.png" />
+					</a>
+					<p class="text-center"><b>Memory Game</b></p>
+				</div>
 
+				<div class="col-6">
+					<a
+						href="https://colts18seth.github.io/OOP-Connect-Four/"
+						target="_blank"
+					>
+						<img
+							class="pr-2 w-100"
+							src="/images/Connect-Four.png"
+						/>
+					</a>
+					<p class="text-center"><b>Connect-Four</b></p>
+				</div>
+			</div>
 
-        <div id="projects" class="main-color my-3">
-            <h2 class="bg-info px-5 py-4 section-title">Projects</h2>
-            <h6 class="text-center my-3">Here are a few simple apps I've made so far.</h6>
-            <div class="row">
-                <div class="col-6">
-                    <a href="https://colts18seth.github.io/Memory-Game/" target="_blank" class="pl-2">
-                        <img class="w-100 " src="/images/Memory-Game.png">
-                    </a>
-                    <p class="text-center"><b>Memory Game</b></p>
-                </div>
+			<div class="row">
+				<div class="col-6">
+					<a
+						href="https://colts18seth.github.io/Meme-Generator/"
+						target="_blank"
+						class="pl-2"
+					>
+						<img class="w-100" src="/images/Meme-Generator.png" />
+					</a>
+					<p class="text-center"><b>Meme Generator</b></p>
+				</div>
 
-                <div class="col-6">
-                    <a href="https://colts18seth.github.io/OOP-Connect-Four/" target="_blank">
-                        <img class="pr-2 w-100" src="/images/Connect-Four.png">
-                    </a>
-                    <p class="text-center"><b>Connect-Four</b></p>
-                </div>
-            </div>
+				<div class="col-6">
+					<a
+						href="https://colts18seth.github.io/Hack-or-Snooze/"
+						target="_blank"
+					>
+						<img
+							class="pr-2 w-100"
+							src="/images/Hack-or-Snooze.png"
+						/>
+					</a>
+					<p class="text-center">
+						<b>Hack or Snooze (Hacker News Clone)</b>
+					</p>
+				</div>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-6">
-                    <a href="https://colts18seth.github.io/Meme-Generator/" target="_blank" class="pl-2">
-                        <img class="w-100" src="/images/Meme-Generator.png">
-                    </a>
-                    <p class="text-center"><b>Meme Generator</b></p>
-                </div>
+		<footer id="connect" class="main-color">
+			<div>
+				<div class="text-center pt-3">
+					<a
+						href="https://www.linkedin.com/in/seth-lafollette/"
+						target="_blank"
+						class="p-3"
+					>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="16"
+							height="16"
+							fill="currentColor"
+							class="bi bi-linkedin"
+							viewBox="0 0 16 16"
+						>
+							<path
+								d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+							/>
+						</svg>
+					</a>
+					<a
+						href="https://twitter.com/Seth_Lafollette"
+						target="_blank"
+						class="p-3"
+					>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="16"
+							height="16"
+							fill="currentColor"
+							class="bi bi-twitter"
+							viewBox="0 0 16 16"
+						>
+							<path
+								d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+							/>
+						</svg>
+					</a>
+					<a href="mailto:seth.lafollette@gmail.com" class="p-3">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="16"
+							height="16"
+							fill="currentColor"
+							class="bi bi-envelope"
+							viewBox="0 0 16 16"
+						>
+							<path
+								d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"
+							/>
+						</svg>
+					</a>
+				</div>
+				<p class="text-center p-3">
+					The logo was made for free at
+					<a href="http://logomakr.com">logomakr.com</a>
+				</p>
+			</div>
+		</footer>
+	</div>
 
-                <div class="col-6">
-                    <a href="https://colts18seth.github.io/Hack-or-Snooze/" target="_blank">
-                        <img class="pr-2 w-100" src="/images/Hack-or-Snooze.png">
-                    </a>
-                    <p class="text-center"><b>Hack or Snooze (Hacker News Clone)</b></p>
-                </div>
-            </div>
-        </div>
-
-
-        <footer id="connect" class="main-color">
-            <div>
-                <p class='text-center p-3'>The logo was made for free at <a href="http://logomakr.com">logomakr.com</a>
-                </p>
-            </div>
-        </footer>
-    </div>
-
-    <script src="/source/jquery-3.5.0.min.js"></script>
-    <script src="/source/bootstrap.bundle.min.js"></script>
+	<script src="/source/jquery-3.5.0.min.js"></script>
+	<script src="/source/bootstrap.bundle.min.js"></script>
 </body>
